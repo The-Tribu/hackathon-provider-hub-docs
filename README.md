@@ -20,6 +20,16 @@ Guías, ejemplos de endpoints y pruebas de humo para la API de DeyeCloud.
 - [05 · Órdenes / comandos](./deye/05-order.md)
 - [Smoke test (`smoke_test.sh`)](./deye/smoke_test.sh)
 
+### Growatt (`/growatt`)
+
+Guías, ejemplos de endpoints y pruebas de humo para la API de Growatt OpenAPI v1.
+
+- [Resumen y autenticación](./growatt/README.md)
+- [01 · Plantas (plant)](./growatt/01-plant.md)
+- [02 · Dispositivos (device)](./growatt/02-device.md)
+- [03 · Inversor específico (MIN/TLX, SPH/MIX)](./growatt/03-inverter.md)
+- [Smoke test (`smoke_test.sh`)](./growatt/smoke_test.sh)
+
 ## Cómo usar el middleware
 
 Todas las peticiones pasan por el middleware, que valida tu API key de equipo e inyecta las credenciales del proveedor de forma transparente:

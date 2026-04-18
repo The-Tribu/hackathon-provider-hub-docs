@@ -20,15 +20,16 @@ Guías, ejemplos de endpoints y pruebas de humo para la API de DeyeCloud.
 - [05 · Órdenes / comandos](./deye/05-order.md)
 - [Smoke test (`smoke_test.sh`)](./deye/smoke_test.sh)
 
-### Growatt (`/growatt`)
+### Huawei (`/huawei`)
 
-Guías, ejemplos de endpoints y pruebas de humo para la API de Growatt OpenAPI v1.
+Guías, ejemplos de endpoints y pruebas de humo para la API de Huawei FusionSolar Northbound (`/thirdData/*`).
 
-- [Resumen y autenticación](./growatt/README.md)
-- [01 · Plantas (plant)](./growatt/01-plant.md)
-- [02 · Dispositivos (device)](./growatt/02-device.md)
-- [03 · Inversor específico (MIN/TLX, SPH/MIX)](./growatt/03-inverter.md)
-- [Smoke test (`smoke_test.sh`)](./growatt/smoke_test.sh)
+- [Resumen y autenticación](./huawei/README.md)
+- [01 · Estaciones (plantas)](./huawei/01-station.md)
+- [02 · Dispositivos](./huawei/02-device.md)
+- [03 · KPIs](./huawei/03-kpi.md)
+- [04 · Alarmas](./huawei/04-alarm.md)
+- [Smoke test (`smoke_test.sh`)](./huawei/smoke_test.sh)
 
 ## Cómo usar el middleware
 

@@ -31,6 +31,16 @@ Guías, ejemplos de endpoints y pruebas de humo para la API de Huawei FusionSola
 - [04 · Alarmas](./huawei/04-alarm.md)
 - [Smoke test (`smoke_test.sh`)](./huawei/smoke_test.sh)
 
+### Growatt (`/growatt`)
+
+Guías, ejemplos de endpoints y pruebas de humo para la API de Growatt OpenAPI V1.
+
+- [Resumen y autenticación](./growatt/README.md)
+- [01 · Plantas](./growatt/01-plant.md)
+- [02 · Dispositivos](./growatt/02-device.md)
+- [03 · Inversores](./growatt/03-inverter.md)
+- [Smoke test (`smoke_test.sh`)](./growatt/smoke_test.sh)
+
 ## Cómo usar el middleware
 
 Todas las peticiones pasan por el middleware, que valida tu API key de equipo e inyecta las credenciales del proveedor de forma transparente:
